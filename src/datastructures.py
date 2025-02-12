@@ -53,6 +53,7 @@ class FamilyStructure:
                  return member
    
 
+
     def get_member(self, id):
         for member in self._members:
             if member["id"] == id:
